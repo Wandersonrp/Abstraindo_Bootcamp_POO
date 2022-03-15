@@ -27,7 +27,6 @@ public class Main {
 		mentoria.setDescricao("Java e sua versatilidade");
 		mentoria.setData(LocalDate.now());
 		
-		
 		//System.out.println(mentoria);
 		
 		Bootcamp bootcamp = new Bootcamp();
@@ -36,7 +35,6 @@ public class Main {
 		bootcamp.getConteudos().add(curso1);
 		bootcamp.getConteudos().add(curso2);
 		bootcamp.getConteudos().add(mentoria);
-		
 		
 		Dev devCamila = new Dev();
 		devCamila.setNome("Camila");
@@ -60,7 +58,5 @@ public class Main {
 		System.out.println("Conteúdos inscritos" + devJoao.getConteudosInscritos());
 		System.out.println("Conteúdos concluídos" + devJoao.getConteudosConcluidos());
 		System.out.println("XP:" + devJoao.calcularTotalXp());
-		
 	}
-
 }
